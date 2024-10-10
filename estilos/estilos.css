@@ -1,0 +1,93 @@
+/* todo lo que contega la pagina */
+html {
+    font-size: 24px;
+    padding: 19px;
+}
+
+/* para que se adapte a otros dispositivos */
+@media screen and(max-width:400px) {
+    html {
+        font: 6px;
+    }
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+body {
+    font-family: 'Rokkitt', serif;
+    background-color: rgb(3, 183, 214);
+    color: #ffffff;
+    font-size: 24px;
+}
+
+
+h1 {
+    text-align: center;
+    font-family: 'Bebas Neue', serif;
+    color: rgb(9, 9, 196);
+    font-size: 4rem;
+    text-decoration: none;
+
+}
+
+/* al pásar el cursor sobre eltexto este se subrayará */
+h1:hover {
+    text-decoration: underline;
+}
+
+article {
+    text-decoration: none;
+}
+
+article:hover {
+    text-decoration: underline;
+}
+
+.descripcion:active {
+    outline: #ffffff;
+}
+
+h2 {
+    color: rgb(190, 126, 42);
+    text-decoration: none;
+    padding: 0;
+}
+
+.ldu {
+    display: flex;
+    margin-left: 20px;
+}
+
+/* al pásar el cursor sobre eltexto este se subrayará */
+
+h2:hover {
+    text-decoration: underline;
+}
+
+.tabla {
+    color: red
+}
+
+.Goleadores {
+    color: rgb(9, 9, 196);
+    text-decoration: none;
+}
+
+/* al pásar el cursor sobre eltexto este se subrayará */
+.Goleadores:hover {
+    text-decoration: underline;
+}
+
+table {
+    background-color: #ffffff;
+    color: #000000;
+    border-inline-color: #000000;
+}
+
+th {
+    color: darkgreen;
+}
